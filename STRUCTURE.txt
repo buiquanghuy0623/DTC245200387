@@ -1,0 +1,23 @@
+gym-fitness-management/
+├── public/
+│   ├── index.html
+│   ├── app.js
+│   └── styles.css
+├── src/
+│   └── server.js
+├── mysql/init/01-schema.sql
+├── nginx/nginx.conf
+├── prometheus/prometheus.yml
+├── loki/loki-config.yaml
+├── promtail/promtail-config.yml
+├── grafana/
+│   ├── provisioning/datasources/datasources.yml
+│   ├── provisioning/dashboards/dashboards.yml
+│   └── dashboards/gym-overview.json
+├── Dockerfile
+├── docker-compose.yml
+├── package.json
+├── .dockerignore
+├── .gitignore
+├── .env.example
+└── README.md
