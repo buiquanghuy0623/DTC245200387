@@ -1,0 +1,10 @@
+apiVersion: 1
+providers:
+  - name: GymFit
+    orgId: 1
+    folder: GymFit
+    type: file
+    disableDeletion: false
+    editable: true
+    options:
+      path: /var/lib/grafana/dashboards
